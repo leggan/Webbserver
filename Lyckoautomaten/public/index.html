@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="./main.js" defer></script>
+</head>
+<body class="w-full h-screen flex justify-center items-center flex-col">
+    <h1 class="text-3xl font-bold underline pb-5">
+        Lyckoautomaten
+    </h1>    
+    <button class="border-1 cursor-pointer" id="numberBtn">Ge mig ett lyckotal</button>
+    <div id="results">
+        <div class="text-4xl pt-10">Slumpnummer: <span id="resultNumber">50</span></div>
+        <div><p>Timestamp: <span id="timestampText"></span></p></div>
+    </div>
+</body>
+</html>
