@@ -7,14 +7,32 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="./main.js" defer></script>
 </head>
-<body class="w-full h-screen flex justify-center items-center flex-col">
-    <h1 class="text-3xl font-bold underline pb-5">
+<body class="flex">
+    <!-- <h1 class="text-3xl font-bold underline pb-5">
         Lyckoautomaten
     </h1>    
     <button class="border-1 cursor-pointer" id="numberBtn">Ge mig ett lyckotal</button>
     <div id="results">
         <div class="text-4xl pt-10">Slumpnummer: <span id="resultNumber">50</span></div>
         <div><p>Timestamp: <span id="timestampText"></span></p></div>
+    </div>
+    <button >Visa historik</button>
+    <div id="history"></div> -->
+    <button class="absolute s-10  p-5 bg-blue-300 cursor-pointer" id="showHistory">Visa historik</button>
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 border-1 w-100 h-fit">
+        <div class="flex justify-center items-center">
+            <h1>Historik</h1>
+        </div>
+        <div id="history">
+            
+        </div>
+    </div>
+    <div class="h-screen w-full">
+        <div class="h-20 w-full border-1 flex justify-center items-center">
+            <h1 class="text-3xl font-bold underline pb-5">
+                Lyckoautomaten
+            </h1>  
+        </div>
     </div>
 </body>
 </html>
